@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="787.68pt" height="443.951719pt" viewBox="0 0 787.68 443.951719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-06T17:15:02.457557</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 443.951719 
+L 787.68 443.951719 
+L 787.68 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.72 388.6 
+L 780.48 388.6 
+L 780.48 55.36 
+L 56.72 55.36 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 56.72 388.6 
+L 56.72 55.36 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m4b531ab1dc" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4b531ab1dc" x="56.72" y="388.6" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="56.72" y="403.198437" transform="rotate(-0 56.72 403.198437)">2005</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 229.048304 388.6 
+L 229.048304 55.36 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4b531ab1dc" x="229.048304" y="388.6" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="229.048304" y="403.198437" transform="rotate(-0 229.048304 403.198437)">2010</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 401.376607 388.6 
+L 401.376607 55.36 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4b531ab1dc" x="401.376607" y="388.6" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="401.376607" y="403.198437" transform="rotate(-0 401.376607 403.198437)">2015</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 573.704911 388.6 
+L 573.704911 55.36 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4b531ab1dc" x="573.704911" y="388.6" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="573.704911" y="403.198437" transform="rotate(-0 573.704911 403.198437)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 746.127589 388.6 
+L 746.127589 55.36 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m4b531ab1dc" x="746.127589" y="388.6" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="746.127589" y="403.198437" transform="rotate(-0 746.127589 403.198437)">2025</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="418.6" y="416.876562" transform="rotate(-0 418.6 416.876562)">Year</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <path d="M 56.72 373.452727 
+L 780.48 373.452727 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <defs>
+       <path id="md963f0f567" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md963f0f567" x="56.72" y="373.452727" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="49.72" y="377.251946" transform="rotate(-0 49.72 377.251946)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_13">
+      <path d="M 56.72 305.930404 
+L 780.48 305.930404 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#md963f0f567" x="56.72" y="305.930404" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="49.72" y="309.729622" transform="rotate(-0 49.72 309.729622)">2000</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <path d="M 56.72 238.40808 
+L 780.48 238.40808 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#md963f0f567" x="56.72" y="238.40808" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="49.72" y="242.207299" transform="rotate(-0 49.72 242.207299)">4000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_17">
+      <path d="M 56.72 170.885756 
+L 780.48 170.885756 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#md963f0f567" x="56.72" y="170.885756" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="49.72" y="174.684975" transform="rotate(-0 49.72 174.684975)">6000</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_19">
+      <path d="M 56.72 103.363433 
+L 780.48 103.363433 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#md963f0f567" x="56.72" y="103.363433" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="49.72" y="107.162652" transform="rotate(-0 49.72 107.162652)">8000</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="18.190313" y="221.98" transform="rotate(-90 18.190313 221.98)">Billion cubic feet per year (Bcf/y)</text>
+    </g>
+   </g>
+   <g id="line2d_21">
+    <path d="M -1 351.415357 
+L 4.71951 350.497771 
+L 39.26067 344.616036 
+L 73.707456 348.854311 
+L 108.154242 349.011064 
+L 142.601028 345.685725 
+L 177.142188 340.931849 
+L 211.588974 337.248709 
+L 246.03576 335.07341 
+L 280.482545 322.620234 
+L 315.023706 318.799213 
+L 349.470492 320.366238 
+L 383.917277 322.330158 
+L 418.364063 313.23929 
+L 452.905224 294.605289 
+L 487.352009 266.97664 
+L 521.798795 251.647824 
+L 556.245581 216.204816 
+L 590.786741 195.035858 
+L 625.233527 148.852918 
+L 659.680313 140.283559 
+L 694.127099 116.529138 
+L 728.668259 113.270038 
+L 763.115045 70.507273 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #1f77b4; stroke-opacity: 0.4; stroke-width: 1.2"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M -1 353.63358 
+L 4.71951 352.728506 
+L 39.26067 346.724995 
+L 73.707456 351.061177 
+L 108.154242 351.068402 
+L 142.601028 347.322635 
+L 177.142188 342.255861 
+L 211.588974 338.374813 
+L 246.03576 337.260863 
+L 280.482545 324.983549 
+L 315.023706 319.754553 
+L 349.470492 320.468804 
+L 383.917277 322.886238 
+L 418.364063 314.204657 
+L 452.905224 300.920281 
+L 487.352009 290.869853 
+L 521.798795 288.222641 
+L 556.245581 277.643682 
+L 590.786741 275.736818 
+L 625.233527 269.077395 
+L 659.680313 270.792225 
+L 694.127099 263.169833 
+L 728.668259 260.737375 
+L 763.115045 256.473441 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #ff7f0e; stroke-opacity: 0.4; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 315.023706 373.452727 
+L 349.470492 373.452727 
+L 383.917277 373.003366 
+L 418.364063 372.895027 
+L 452.905224 367.244961 
+L 487.352009 349.603032 
+L 521.798795 336.905898 
+L 556.245581 312.078649 
+L 590.786741 292.894814 
+L 625.233527 253.281897 
+L 659.680313 242.999058 
+L 694.127099 226.850351 
+L 728.668259 226.039172 
+L 763.115045 187.495843 
+" clip-path="url(#p8103e115cf)" style="fill: none; stroke: #2ca02c; stroke-width: 2.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 56.72 388.6 
+L 56.72 55.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 780.48 388.6 
+L 780.48 55.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 56.72 388.6 
+L 780.48 388.6 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 56.72 55.36 
+L 780.48 55.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 632.29233 230.572594 
+Q 629.059774 240.972246 626.159078 250.304252 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 629.25624 247.078173 
+L 626.159078 250.304252 
+L 625.436512 245.890875 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="556.245581" y="224.58491" transform="rotate(-0 556.245581 224.58491)">LNG surpasses pipeline exports</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #696969" x="418.6" y="45.36" transform="rotate(-0 418.6 45.36)">New export terminals helped turn LNG into the main growth engine for U.S. natural gas exports</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_24">
+     <path d="M 65.72 68.458438 
+L 75.72 68.458438 
+L 85.72 68.458438 
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #1f77b4; stroke-opacity: 0.4; stroke-width: 1.2"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="93.72" y="71.958438" transform="rotate(-0 93.72 71.958438)">Total natural gas exports</text>
+    </g>
+    <g id="line2d_25">
+     <path d="M 65.72 83.136563 
+L 75.72 83.136563 
+L 85.72 83.136563 
+" style="fill: none; stroke: #ff7f0e; stroke-opacity: 0.4; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="93.72" y="86.636563" transform="rotate(-0 93.72 86.636563)">Pipeline exports (Canada and Mexico)</text>
+    </g>
+    <g id="line2d_26">
+     <path d="M 65.72 97.814687 
+L 75.72 97.814687 
+L 85.72 97.814687 
+" style="fill: none; stroke: #2ca02c; stroke-width: 2.5; stroke-linecap: square"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="93.72" y="101.314687" transform="rotate(-0 93.72 101.314687)">LNG exports by vessel</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle" x="395.28" y="19.3575" transform="rotate(-0 395.28 19.3575)">America’s LNG export boom overtook pipeline gas</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #696969" transform="translate(7.2 424.801969)">Source: U.S. Energy Information Administration (EIA) data.</text>
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #696969" transform="translate(7.2 434.88)">Note: Pipeline exports include natural gas exports to Canada and Mexico; LNG exports refer to vessel shipments.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8103e115cf">
+   <rect x="56.72" y="55.36" width="723.76" height="333.24"/>
+  </clipPath>
+ </defs>
+</svg>

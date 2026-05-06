@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>After Russia, life’s a gas for American allies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fff7e8;
+      --ink:#171717;
+      --muted:#666;
+      --rule:#d9cdb8;
+      --yellow:#ffd84d;
+      --blue:#123c69;
+      --pink:#ff4f87;
+      --card:#fffdf7;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    body{
+      background:var(--bg);
+      color:var(--ink);
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      line-height:1.55;
+    }
+
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:20;
+      background:var(--ink);
+      color:white;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:.75rem 1.25rem;
+      font-size:.78rem;
+      letter-spacing:.04em;
+      text-transform:uppercase;
+      font-weight:800;
+    }
+
+    .brand{
+      background:var(--yellow);
+      color:var(--ink);
+      padding:.15rem .45rem;
+      font-weight:900;
+      letter-spacing:-.03em;
+    }
+
+    .hero{
+      max-width:1120px;
+      margin:0 auto;
+      padding:4rem 1.25rem 2rem;
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:2.5rem;
+      align-items:end;
+    }
+
+    .kicker{
+      display:inline-block;
+      background:var(--pink);
+      color:white;
+      font-size:.75rem;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      padding:.25rem .5rem;
+      margin-bottom:1rem;
+    }
+
+    h1{
+      font-size:clamp(3rem,8vw,6.6rem);
+      line-height:.88;
+      letter-spacing:-.075em;
+      font-weight:900;
+      max-width:760px;
+    }
+
+    .dek{
+      font-family:"Source Serif 4",Georgia,serif;
+      font-size:clamp(1.15rem,2vw,1.55rem);
+      line-height:1.35;
+      color:#343434;
+      max-width:560px;
+      margin-top:1.25rem;
+    }
+
+    .byline{
+      margin-top:1.25rem;
+      color:var(--muted);
+      font-size:.85rem;
+      font-weight:600;
+    }
+
+    .hero-card{
+      background:var(--yellow);
+      border:3px solid var(--ink);
+      box-shadow:10px 10px 0 var(--ink);
+      padding:1.25rem;
+      transform:rotate(1deg);
+    }
+
+    .hero-card .big{
+      font-size:4rem;
+      font-weight:900;
+      line-height:.9;
+      letter-spacing:-.05em;
+    }
+
+    .hero-card p{
+      margin-top:.65rem;
+      font-weight:700;
+      font-size:1rem;
+    }
+
+    .story{
+      max-width:1120px;
+      margin:0 auto;
+      padding:1rem 1.25rem 4rem;
+    }
+
+    .step{
+      min-height:82vh;
+      display:grid;
+      grid-template-columns:330px 1fr;
+      gap:2rem;
+      align-items:center;
+      border-top:2px solid var(--ink);
+      padding:3rem 0;
+    }
+
+    .step-text{
+      position:sticky;
+      top:5rem;
+      align-self:start;
+      background:var(--card);
+      border-left:8px solid var(--ink);
+      padding:1.25rem 1.25rem 1.35rem;
+    }
+
+    .step-num{
+      font-size:.7rem;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      font-weight:900;
+      color:var(--pink);
+      margin-bottom:.75rem;
+    }
+
+    .step h2{
+      font-size:2rem;
+      line-height:1;
+      letter-spacing:-.04em;
+      margin-bottom:.85rem;
+    }
+
+    .step p{
+      font-family:"Source Serif 4",Georgia,serif;
+      font-size:1.04rem;
+      line-height:1.55;
+      color:#333;
+    }
+
+    figure{
+      background:white;
+      border:1px solid var(--rule);
+      padding:1rem;
+      box-shadow:0 8px 22px rgba(0,0,0,.05);
+    }
+
+    figure img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    figcaption{
+      border-top:1px solid var(--rule);
+      margin-top:.85rem;
+      padding-top:.7rem;
+      font-size:.72rem;
+      line-height:1.45;
+      color:var(--muted);
+    }
+
+    figcaption strong{color:var(--ink)}
+
+    .closing{
+      max-width:760px;
+      margin:2rem auto 0;
+      padding:2rem 0 5rem;
+      border-top:4px solid var(--ink);
+    }
+
+    .closing p{
+      font-family:"Source Serif 4",Georgia,serif;
+      font-size:1.25rem;
+      line-height:1.55;
+      margin-bottom:1rem;
+    }
+
+    .sources{
+      font-size:.75rem;
+      color:var(--muted);
+      border-top:1px solid var(--rule);
+      padding-top:1rem;
+      margin-top:2rem;
+    }
+
+    @media(max-width:800px){
+      .hero{grid-template-columns:1fr;padding-top:3rem}
+      .hero-card{transform:none;box-shadow:6px 6px 0 var(--ink)}
+      .step{grid-template-columns:1fr;min-height:auto}
+      .step-text{position:static}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div><span class="brand">DATA</span> Energy geopolitics</div>
+    <div>May 2026</div>
+  </div>
+
+  <header class="hero">
+    <div>
+      <div class="kicker">LNG & energy security</div>
+      <h1>After Russia, life’s a gas for American allies</h1>
+      <p class="dek">U.S. LNG was built over decades. War, markets and infrastructure turned it into a system Europe now has to manage.</p>
+      <div class="byline">By Franco Bastida · POLITICO analysis of EIA data</div>
+    </div>
+    <div class="hero-card">
+      <div class="big">15<br>Bcf/d</div>
+      <p>U.S. LNG exports reached roughly 15 billion cubic feet per day in 2025, up from 0.5 Bcf/d in 2016.</p>
+    </div>
+  </header>
+
+  <main class="story">
+    <section class="step">
+      <div class="step-text">
+        <div class="step-num">Part 1 · Buildout</div>
+        <h2>The gas machine came first</h2>
+        <p>The world has seen this story before: oil shocks in the Persian Gulf, Soviet gas deals used to stabilise a failing system, and more recently U.S. efforts to revive production abroad in Venezuela.</p>
+        <p>Since the opening of the first export facility in 1969 in Kenai, Alaska, energy has been used as leverage. What is different today is the scale of geopolitics around liquefied natural gas.</p>
+        <p>The United States did not suddenly become an energy power under Donald Trump. U.S. energy dominance has been built over decades of policy, treating production capacity and market reach as tools of national security. LNG exports by vessel have surged over the past decade, overtaking pipeline flows to Canada and Mexico.</p>
+      </div>
+      <figure>
+        <img src="figures/lng_pipeline.svg" alt="Line chart showing U.S. LNG exports overtaking pipeline gas exports" />
+        <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Pipeline exports include natural gas exports to Canada and Mexico; LNG exports refer to vessel shipments.</figcaption>
+      </figure>
+    </section>
+
+    <section class="step">
+      <div class="step-text">
+        <div class="step-num">Part 2 · Shock</div>
+        <h2>War redirected the flow</h2>
+        <p>The strategic shift also reflects heavy infrastructure investment, with new liquefaction facilities expected through 2029. Favorable contracts and costs helped, but international conflict has played a major role.</p>
+        <p>Russia’s invasion of Ukraine demonstrates the dynamic. Before 2022, Asia was the primary destination for U.S. LNG, accounting for about 46 percent of exports between 2017 and 2021. After the war, flows shifted rapidly to Europe, which received 69 percent of U.S. LNG exports in 2022.</p>
+        <p>The surge was not evenly distributed. A handful of countries, led by the Netherlands, France and Spain, absorbed most of the increase, reflecting existing infrastructure and market capacity.</p>
+      </div>
+      <figure>
+        <img src="figures/lng_europe.svg" alt="Stacked area chart showing U.S. LNG exports to European countries" />
+        <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> U.S. LNG export volumes by destination country; “Others” includes remaining European countries with reported trade.</figcaption>
+      </figure>
+    </section>
+
+    <section class="step">
+      <div class="step-text">
+        <div class="step-num">Part 3 · Dependence</div>
+        <h2>Europe became the main market</h2>
+        <p>Europe overtook Asia as the main destination for U.S. LNG and is now experiencing managed dependence. The continent is seeking diversification after relying on Russia for too long, but U.S. shares have also grown consistently over the years.</p>
+        <p>If the United States is now a system supplier, the lesson extends beyond Europe: control does not guarantee stability. As the Iran war has shown, even conflicts are constrained by supply, pricing and markets—not only geopolitics.</p>
+      </div>
+      <figure>
+        <img src="figures/lng_shares.svg" alt="Stacked area chart showing share of U.S. LNG exports by destination region" />
+        <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Shares reflect destinations of U.S. LNG exports by volume; includes only regions with reported trade.</figcaption>
+      </figure>
+    </section>
+
+    <section class="closing">
+      <p>The question is no longer whether countries depend on LNG, but how exposed they are when the system experiences abrupt shocks.</p>
+      <p>The era of gas is far from over. But it is becoming more volatile, more competitive and more contested.</p>
+    </section>
+  </main>
+</body>
+</html>
