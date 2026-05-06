@@ -110,11 +110,17 @@
 
     .step-text{
       position:static;
-      max-width:760px;
-      background:var(--card);
+      max-width:1160px;
+      background:transparent;
       border-left:8px solid var(--ink);
-      padding:1.25rem 1.5rem 1.35rem;
+      padding:1.25rem 2rem 1.35rem;
       margin:0 auto 2rem;
+    }
+
+    .step-text .text-columns{
+      column-count:2;
+      column-gap:2rem;
+      max-width:980px;
     }
 
     .step-num{
@@ -231,7 +237,11 @@
 
     @media(max-width:800px){
       .hero{padding:3rem 1.2rem 2rem}
+      .step-text .text-columns{
+        column-count: 1;
+      }
     }
+    
   </style>
 </head>
 <body>
@@ -252,15 +262,18 @@
   <main class="story">
     <section class="step">
       <div class="step-text">
-        <div class="step-num">Part 1 · Buildout</div>
+        <div class="step-num">Part 1 · System</div>
         <h2>The gas machine came first</h2>
-        <p>The world has seen this story before: oil shocks in the Persian Gulf, Soviet gas deals used to stabilise a failing system, and more recently U.S. efforts to revive production abroad in Venezuela.</p>
-        <p>Since the opening of the first export facility in 1969 in Kenai, Alaska, energy has been used as leverage. What is different today is the scale of geopolitics around liquefied natural gas.</p>
-        <p>The United States did not suddenly become an energy power under Donald Trump. U.S. energy dominance has been built over decades of policy, treating production capacity and market reach as tools of national security. LNG exports by vessel have surged over the past decade, overtaking pipeline flows to Canada and Mexico.</p>
+
+        <div class="text-columns">
+          <p>The world has seen this story before: oil shocks in the Persian Gulf, Soviet gas deals used to stabilise a failing system, and more recently U.S. efforts to revive production abroad in Venezuela.</p>
+          <p>Since the opening of the first export facility in 1969 in Kenai, Alaska, energy has been used as leverage. What is different today is the scale of geopolitics around liquefied natural gas.</p>
+          <p>The United States did not suddenly become an energy power under Donald Trump. U.S. energy dominance has been built over decades of policy, treating production capacity and market reach as tools of national security. LNG exports by vessel have surged over the past decade, overtaking pipeline flows to Canada and Mexico.</p>
+        </div>
       </div>
       <figure>
-        <img src="figures/lng_pipeline.svg" alt="Line chart showing U.S. LNG exports overtaking pipeline gas exports" />
-        <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Pipeline exports include natural gas exports to Canada and Mexico; LNG exports refer to vessel shipments.</figcaption>
+        <img src="figures/lng_pipeline_vs_gas.svg" alt="Line chart showing U.S. LNG exports overtaking pipeline gas exports" />
+        <figcaption><strong>Source:</strong> Analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Pipeline exports include natural gas exports to Canada and Mexico; LNG exports refer to vessel shipments.</figcaption>
       </figure>
     </section>
 
@@ -268,13 +281,16 @@
       <div class="step-text">
         <div class="step-num">Part 2 · Shock</div>
         <h2>War redirected the flow</h2>
-        <p>The strategic shift also reflects heavy infrastructure investment, with new liquefaction facilities expected through 2029. Favorable contracts and costs helped, but international conflict has played a major role.</p>
-        <p>Russia’s invasion of Ukraine demonstrates the dynamic. Before 2022, Asia was the primary destination for U.S. LNG, accounting for about 46 percent of exports between 2017 and 2021. After the war, flows shifted rapidly to Europe, which received 69 percent of U.S. LNG exports in 2022.</p>
-        <p>The surge was not evenly distributed. A handful of countries, led by the Netherlands, France and Spain, absorbed most of the increase, reflecting existing infrastructure and market capacity.</p>
+
+        <div class="text-columns">
+          <p>The strategic shift also reflects heavy infrastructure investment, with new liquefaction facilities expected through 2029. Favorable contracts and costs helped, but international conflict has played a major role.</p>
+          <p>Russia’s invasion of Ukraine demonstrates the dynamic. Before 2022, Asia was the primary destination for U.S. LNG, accounting for about 46 percent of exports between 2017 and 2021. After the war, flows shifted rapidly to Europe, which received 69 percent of U.S. LNG exports in 2022.</p>
+          <p>The surge was not evenly distributed. A handful of countries, led by the Netherlands, France and Spain, absorbed most of the increase, reflecting existing infrastructure and market capacity.</p>
+        </div>
       </div>
       <figure>
         <img src="figures/lng_europe.svg" alt="Stacked area chart showing U.S. LNG exports to European countries" />
-        <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> U.S. LNG export volumes by destination country; “Others” includes remaining European countries with reported trade.</figcaption>
+        <figcaption><strong>Source:</strong> Analysis of U.S. Energy Information Administration data. <strong>Note:</strong> U.S. LNG export volumes by destination country; “Others” includes remaining European countries with reported trade.</figcaption>
       </figure>
     </section>
 
@@ -282,12 +298,15 @@
       <div class="step-text">
         <div class="step-num">Part 3 · Dependence</div>
         <h2>Europe became the main market</h2>
-        <p>Europe overtook Asia as the main destination for U.S. LNG and is now experiencing managed dependence. The continent is seeking diversification after relying on Russia for too long, but U.S. shares have also grown consistently over the years.</p>
-        <p>If the United States is now a system supplier, the lesson extends beyond Europe: control does not guarantee stability. As the Iran war has shown, even conflicts are constrained by supply, pricing and markets—not only geopolitics.</p>
+
+        <div class="text-columns">
+          <p>Europe overtook Asia as the main destination for U.S. LNG and is now experiencing managed dependence. The continent is seeking diversification after relying on Russia for too long, but U.S. shares have also grown consistently over the years.</p>
+          <p>If the United States is now a system supplier, the lesson extends beyond Europe: control does not guarantee stability. As the Iran war has shown, even conflicts are constrained by supply, pricing and markets—not only geopolitics.</p>
+       </div>
       </div>
       <figure>
         <img src="figures/lng_shares.svg" alt="Stacked area chart showing share of U.S. LNG exports by destination region" />
-        <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Shares reflect destinations of U.S. LNG exports by volume; includes only regions with reported trade.</figcaption>
+        <figcaption><strong>Source:</strong> Analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Shares reflect destinations of U.S. LNG exports by volume; includes only regions with reported trade.</figcaption>
       </figure>
     </section>
 
