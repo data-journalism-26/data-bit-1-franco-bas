@@ -6,15 +6,15 @@
 
 ---
 
-This data story examines how the United States became the world’s dominant LNG exporter, how Russia’s invasion of Ukraine redirected those flows toward Europe, and why the resulting dependence is better understood as managed rather than absolute.
+This data story examines how the U.S. became the world’s dominant LNG exporter, how Russia’s invasion of Ukraine redirected those flows toward Europe, and why the resulting dependence is better understood as managed rather than absolute.
 
-The piece combines U.S. Energy Information Administration (EIA) and Eurostat data with a lightweight scrollytelling web layout.
+The piece combines U.S. Energy Information Administration (EIA) with a lightweight scrollytelling web layout.
 
 ## Core arguments
 
-1. **Even before the Trump administration, U.S. LNG dominance was built structurally over decades** through infrastructure and capacity expansion.
-2. **Russia’s invasion of Ukraine redirected LNG markets toward Europe**, with flows concentrating in a handful of European countries.  
-3. **Energy power remains constrained by markets**, meaning leverage does not guarantee long-term stability or geopolitical control.
+1. **U.S. LNG dominance was built structurally over decades** even before the Trump administration. 
+2. **Russia’s invasion of Ukraine redirected LNG flows** to a handful of European countries.
+3. **Energy dominance is still constrained by markets**, meaning it does not guarantee stability or geopolitical control.
 
 ---
 
@@ -45,6 +45,6 @@ The piece combines U.S. Energy Information Administration (EIA) and Eurostat dat
 
 ---
 
-## GitHack static
+## GitHack view
 
- **[Read the article here:](https://raw.githack.com/data-journalism-26/data-bit-1-franco-bas/main/index.html)**
+ **[Read the article here](https://raw.githack.com/data-journalism-26/data-bit-2-ashley-razo/main/index.html)**

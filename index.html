@@ -53,13 +53,9 @@
     }
 
     .hero{
-      max-width:1120px;
+      max-width:1400px;
       margin:0 auto;
-      padding:4rem 1.25rem 2rem;
-      display:grid;
-      grid-template-columns:1.05fr .95fr;
-      gap:2.5rem;
-      align-items:end;
+      padding:4rem 2rem 3rem;
     }
 
     .kicker{
@@ -75,73 +71,49 @@
     }
 
     h1{
-      font-size:clamp(3rem,8vw,6.6rem);
-      line-height:.88;
-      letter-spacing:-.075em;
+      font-size:clamp(4rem,11vw,9rem);
+      line-height:.86;
+      letter-spacing:-.09em;
       font-weight:900;
-      max-width:760px;
+      max-width:1200px;
+      margin-bottom:1.5rem;
     }
 
     .dek{
       font-family:"Source Serif 4",Georgia,serif;
-      font-size:clamp(1.15rem,2vw,1.55rem);
+      font-size:clamp(1.2rem,2vw,1.7rem);
       line-height:1.35;
       color:#343434;
-      max-width:560px;
-      margin-top:1.25rem;
+      max-width:720px;
     }
 
     .byline{
-      margin-top:1.25rem;
+      margin-top:1.5rem;
       color:var(--muted);
-      font-size:.85rem;
+      font-size:.9rem;
       font-weight:600;
     }
 
-    .hero-card{
-      background:var(--yellow);
-      border:3px solid var(--ink);
-      box-shadow:10px 10px 0 var(--ink);
-      padding:1.25rem;
-      transform:rotate(1deg);
-    }
-
-    .hero-card .big{
-      font-size:4rem;
-      font-weight:900;
-      line-height:.9;
-      letter-spacing:-.05em;
-    }
-
-    .hero-card p{
-      margin-top:.65rem;
-      font-weight:700;
-      font-size:1rem;
-    }
-
     .story{
-      max-width:1120px;
+      max-width:1280px;
       margin:0 auto;
       padding:1rem 1.25rem 4rem;
     }
 
     .step{
-      min-height:82vh;
-      display:grid;
-      grid-template-columns:330px 1fr;
-      gap:2rem;
-      align-items:center;
+      min-height:auto;
+      display:block;
       border-top:2px solid var(--ink);
-      padding:3rem 0;
+      padding:3rem 0 4rem;
     }
 
     .step-text{
-      position:sticky;
-      top:5rem;
-      align-self:start;
+      position:static;
+      max-width:760px;
       background:var(--card);
       border-left:8px solid var(--ink);
-      padding:1.25rem 1.25rem 1.35rem;
+      padding:1.25rem 1.5rem 1.35rem;
+      margin:0 auto 2rem;
     }
 
     .step-num{
@@ -168,15 +140,18 @@
     }
 
     figure{
+      width:100%;
       background:white;
       border:1px solid var(--rule);
-      padding:1rem;
+      padding:1.25rem;
       box-shadow:0 8px 22px rgba(0,0,0,.05);
     }
 
     figure img{
       display:block;
       width:100%;
+      max-width:1160px;
+      margin:0 auto;
       height:auto;
     }
 
@@ -206,18 +181,55 @@
     }
 
     .sources{
+      max-width:860px;
+      margin:3rem auto 0;
+      padding:1.5rem 0 3rem;
+      border-top:3px double var(--rule);
       font-size:.75rem;
       color:var(--muted);
-      border-top:1px solid var(--rule);
-      padding-top:1rem;
-      margin-top:2rem;
+    }
+
+    .sources h2{
+      font-size:.72rem;
+      text-transform:uppercase;
+      letter-spacing:.18em;
+      color:var(--muted);
+      margin-bottom:1rem;
+    }
+
+    .sources ul{
+      list-style:none;
+    }
+
+    .sources li{
+      padding:.65rem 0;
+      border-bottom:1px solid rgba(217,205,184,.55);
+      line-height:1.45;
+    }
+
+    .source-group{
+      font-family:Inter,system-ui,sans-serif;
+      font-size:.82rem;
+      color:var(--ink);
+      margin-bottom:.15rem;
+    }
+
+    .links{
+      font-size:.72rem;
+    }
+
+    .sources a{
+      color:#d9471f;
+      text-decoration:none;
+      font-weight:700;
+    }
+
+    .sources a:hover{
+      text-decoration:underline;
     }
 
     @media(max-width:800px){
-      .hero{grid-template-columns:1fr;padding-top:3rem}
-      .hero-card{transform:none;box-shadow:6px 6px 0 var(--ink)}
-      .step{grid-template-columns:1fr;min-height:auto}
-      .step-text{position:static}
+      .hero{padding:3rem 1.2rem 2rem}
     }
   </style>
 </head>
@@ -234,10 +246,6 @@
       <p class="dek">U.S. LNG was built over decades. War, markets and infrastructure turned it into a system Europe now has to manage.</p>
       <div class="byline">By Franco Bastida · POLITICO analysis of EIA data</div>
     </div>
-    <div class="hero-card">
-      <div class="big">15<br>Bcf/d</div>
-      <p>U.S. LNG exports reached roughly 15 billion cubic feet per day in 2025, up from 0.5 Bcf/d in 2016.</p>
-    </div>
   </header>
 
   <main class="story">
@@ -250,7 +258,7 @@
         <p>The United States did not suddenly become an energy power under Donald Trump. U.S. energy dominance has been built over decades of policy, treating production capacity and market reach as tools of national security. LNG exports by vessel have surged over the past decade, overtaking pipeline flows to Canada and Mexico.</p>
       </div>
       <figure>
-        <img src="figures/lng_pipeline.svg" alt="Line chart showing U.S. LNG exports overtaking pipeline gas exports" />
+        <img src="assets/lng_pipeline.svg" alt="Line chart showing U.S. LNG exports overtaking pipeline gas exports" />
         <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Pipeline exports include natural gas exports to Canada and Mexico; LNG exports refer to vessel shipments.</figcaption>
       </figure>
     </section>
@@ -264,7 +272,7 @@
         <p>The surge was not evenly distributed. A handful of countries, led by the Netherlands, France and Spain, absorbed most of the increase, reflecting existing infrastructure and market capacity.</p>
       </div>
       <figure>
-        <img src="figures/lng_europe.svg" alt="Stacked area chart showing U.S. LNG exports to European countries" />
+        <img src="assets/lng_europe.svg" alt="Stacked area chart showing U.S. LNG exports to European countries" />
         <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> U.S. LNG export volumes by destination country; “Others” includes remaining European countries with reported trade.</figcaption>
       </figure>
     </section>
@@ -277,7 +285,7 @@
         <p>If the United States is now a system supplier, the lesson extends beyond Europe: control does not guarantee stability. As the Iran war has shown, even conflicts are constrained by supply, pricing and markets—not only geopolitics.</p>
       </div>
       <figure>
-        <img src="figures/lng_shares.svg" alt="Stacked area chart showing share of U.S. LNG exports by destination region" />
+        <img src="assets/lng_shares.svg" alt="Stacked area chart showing share of U.S. LNG exports by destination region" />
         <figcaption><strong>Source:</strong> POLITICO analysis of U.S. Energy Information Administration data. <strong>Note:</strong> Shares reflect destinations of U.S. LNG exports by volume; includes only regions with reported trade.</figcaption>
       </figure>
     </section>
@@ -286,6 +294,38 @@
       <p>The question is no longer whether countries depend on LNG, but how exposed they are when the system experiences abrupt shocks.</p>
       <p>The era of gas is far from over. But it is becoming more volatile, more competitive and more contested.</p>
     </section>
+
+    <footer class="sources">
+      <h2>Sources &amp; Data</h2>
+      <ul>
+        <li>
+          <div class="source-group"><strong>NYT Archives:</strong> Historical background on the Arab oil embargo and Soviet gas deals.</div>
+          <div class="links">
+            <a href="https://www.nytimes.com/1973/10/19/archives/japan-is-stunned-by-arab-oil-cuts-5-reduction-in-output-and-price.html" target="_blank">Japan oil embargo article</a> ·
+            <a href="https://www.nytimes.com/1973/01/09/archives/soviet-gas-deal-held-up-as-us-studies-cost-gas-deal-held-up-us.html" target="_blank">Soviet gas deal article</a>
+          </div>
+        </li>
+        <li>
+          <div class="source-group"><strong>EIA:</strong> Monthly LNG exports and natural gas trade data.</div>
+          <div class="links">
+            <a href="https://www.eia.gov/outlooks/steo/" target="_blank">Short-Term Energy Outlook</a> ·
+            <a href="https://www.eia.gov/todayinenergy/detail.php?id=67224" target="_blank">Today in Energy LNG overview</a>
+          </div>
+        </li>
+        <li>
+          <div class="source-group"><strong>Penn State Law:</strong> Background on U.S. LNG export facilities.</div>
+          <div class="links">
+            <a href="https://aglaw.psu.edu/shale-law-in-the-spotlight/shale-law-in-the-spotlight-existing-lng-export-facilities-in-the-united-states-alaska-louisiana-texas-and-maryland/" target="_blank">LNG Export Facilities Overview</a>
+          </div>
+        </li>
+        <li>
+          <div class="source-group"><strong>GitHub Notebook:</strong> Code repository for data cleaning, charting and site files.</div>
+          <div class="links">
+            <a href="https://github.com/data-journalism-26/data-bit-1-franco-bas/blob/main/lng-maps.ipynb" target="_blank">LNG Maps Notebook</a>
+          </div>
+        </li>
+      </ul>
+    </footer>
   </main>
 </body>
 </html>
